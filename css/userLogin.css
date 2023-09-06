@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box ;
+}
+img{
+    float: left;
+
+
+}
+.img{
+    margin-left: 10px;
+}
+.a{
+        background-color: white;
+        width: 70%;
+        border: 15px solid lightgray;
+        padding: 50px;
+        margin: 20px;
+        margin-left: 20%;
+      
+    
+}
+
+.newAccount button{
+    background-color: #FDA103;
+    color: white;
+    border: none;
+    font-size:20px ;
+
+}
+#password{
+    margin-top: 10px;
+}
