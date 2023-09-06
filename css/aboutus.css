@@ -1,3 +1,5 @@
+
+
 hr{
     border-bottom-style: dotted;
 }
@@ -14,69 +16,53 @@ hr{
     text-decoration: solid;
 }
 
-
-
-
-
-
-.navbar-expand-lg{
-    width: 100%;
-    position: fixed;
-    
-}
-nav.navbar{
-    z-index: 4;
-}
-.nav2{
-    padding-top: 80px;
+.about-us{
     display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 20px 0;
+    width: 100vw;
+    height: 40vh;
+    /* object-fit: cover; */
+    background-image: url("https://images.unsplash.com/photo-1527293797671-06c3be34418f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
+
+.about-us h1{
+    
+    font-size: 6rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.about-us-text{
+    padding: 30px 50px;
+    margin-bottom: 5rem;
+}
+
+
+
+.mission-content{
+    display: flex;
+    gap: 20vh;
+    margin: 50px 10vw;
+    align-items: center;
     justify-content: space-between;
-
-}
-.nav2-div{
-    display: flex;
-    justify-content: space-between;    
 }
 
-.document-writer{
-    margin: 10px 20px;
+.mission-content ul{
+    font-size: 17px;
+    line-height: 2;
 }
-.options{
-    margin-left: 500px;
-    display: flex;
-    margin-right: 30px;    
-    flex-grow: 1.5;
-}
-.nav-link{
-    padding-left: 10px;
-    padding-right: 15px;
-}
-#footer{
-    padding: 5% 10%;
-    
-}
-.social-icon{
-    margin: 20px 10px;
-}
-.ul-footer{
-    list-style: none;
-    text-align: left;
-}
-.footer-div{
-    display: inline-block;   
-}
-.end{
+
+.mission h1{
     text-align: center;
 }
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+.mission-content img{
+    height: 40vh;
+    border: 1px solid green;
+   border-radius: 50%;
 }
-.a-footer{
-    text-decoration: none;
-    color: black;
-}
-.span-footer{
-    color: blue;
-}
+
+
+
