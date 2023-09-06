@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRyFTLRNyDmT1a1boZV');
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+nav{
+    
+    background-color: #fff;
+    
+}
+
+.cards{
+    margin: 2vh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.card-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mid-section{
+    padding: 0 30px;
+    display: flex;
+}
+
+.mid-section h1{
+    font-weight: bold;
+}
+
+
+
+.left-side-bar{
+    background-color: aqua;
+    
+}
+
+.right-side-bar{
+    padding: 10px;
+}
+
+.card-section h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    width: 100%;
+  }
+
+
+  
+.searchbar{
+    margin: 0 8vw;
+}
+
+.search-button{
+    margin-left: 30px;
+}
+
+
+
+
+
