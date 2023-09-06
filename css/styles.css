@@ -215,7 +215,7 @@ nav.navbar {
 .lawyer-hover {
     position: absolute;
     top: 110px;
-    right: 340px;
+    left: 340px;
     width: 40%;
     background: transparent;
     background-color: black;
@@ -242,7 +242,7 @@ nav.navbar {
 .arbitators-hover {
     position: absolute;
     top: 110px;
-    right: 220px;
+    left: 500px;
     width: 40%;
     background: transparent;
     background-color: black;
