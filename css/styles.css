@@ -212,23 +212,21 @@ nav.navbar {
     color: blue;
 }
 
-.lawyer-hover {
+.lawyer-hover,.arbitators-hover,.document-writer-hover,.mediators-hover  {
     position: absolute;
-    top: 110px;
-    left: 340px;
     width: 40%;
     background: transparent;
-    background-color: black;
+    background-color: rgba(6, 6, 6, 0.21);
     display: none;
     z-index: 1;
 }
-.lawyer-hover-div {
+.lawyer-hover-div,.arbitators-hover-div,.document-writer-hover-div,.mediators-hover-div {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
 }
-.lawyer-hover-div2 {
+.lawyer-hover-div2,.arbitators-hover-div2,.document-writer-hover-div2,.mediators-hover-div2 {
     display: flex;
 }
 .hover-div-a {
@@ -238,70 +236,10 @@ nav.navbar {
 .lawyer:hover .lawyer-hover {
     display: flex;
 }
-
-.arbitators-hover {
-    position: absolute;
-    top: 110px;
-    left: 500px;
-    width: 40%;
-    background: transparent;
-    background-color: black;
-    display: none;
-    z-index: 1;
-}
-.arbitators-hover-div {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.arbitators-hover-div2 {
-    display: flex;
-}
 .arbitators:hover .arbitators-hover {
     display: flex;
 }
-
-.document-writer-hover {
-    position: absolute;
-    top: 110px;
-    right: 98px;
-    width: 40%;
-    background: transparent;
-    background-color: black;
-    display: none;
-    z-index: 1;
-}
-.document-writer-hover-div {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.document-writer-hover-div2 {
-    display: flex;
-}
 .document-writer:hover .document-writer-hover {
-    display: flex;
-}
-
-.mediators-hover {
-    position: absolute;
-    top: 110px;
-    right: 15px;
-    width: 40%;
-    background: transparent;
-    background-color: black;
-    display: none;
-    z-index: 1;
-}
-.mediators-hover-div {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.mediators-hover-div2 {
     display: flex;
 }
 .mediators:hover .mediators-hover {
