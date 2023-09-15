@@ -19,7 +19,8 @@ h3 {
 p {
     color: #8f8f8f;
 }
-.carousel-inner{
+
+.carousel-inner {
     height: 400px;
 }
 
@@ -44,7 +45,7 @@ p {
     padding-right: 20px;
 }
 
-.carousel{
+.carousel {
     position: relative;
 }
 
@@ -159,6 +160,7 @@ nav.navbar {
     display: flex;
     justify-content: space-between;
 }
+
 .options {
     margin-left: 60px;
     display: flex;
@@ -207,40 +209,56 @@ nav.navbar {
     color: blue;
 }
 
-.lawyer-hover,.arbitators-hover,.document-writer-hover,.mediators-hover  {
+.lawyer-hover,
+.arbitators-hover,
+.document-writer-hover,
+.mediators-hover {
     position: absolute;
-    width: 30%;
+    width: 350px;
     background: transparent;
     background-color: lightgray;
     display: none;
     z-index: 1;
 }
-.lawyer-hover-div,.arbitators-hover-div,.document-writer-hover-div,.mediators-hover-div {
+
+.lawyer-hover-div,
+.arbitators-hover-div,
+.document-writer-hover-div,
+.mediators-hover-div {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px;
 }
-.lawyer-hover-div2,.arbitators-hover-div2,.document-writer-hover-div2,.mediators-hover-div2 {
+
+.lawyer-hover-div2,
+.arbitators-hover-div2,
+.document-writer-hover-div2,
+.mediators-hover-div2 {
     display: flex;
 }
+
 .hover-div-a {
     text-decoration: none;
     color: black;
 }
+
 .lawyer:hover .lawyer-hover {
     display: flex;
 }
+
 .arbitators:hover .arbitators-hover {
     display: flex;
 }
+
 .document-writer:hover .document-writer-hover {
     display: flex;
 }
+
 .mediators:hover .mediators-hover {
     display: flex;
 }
-.nav2-img{
+
+.nav2-img {
     width: 75%;
     height: 90%;
 }
