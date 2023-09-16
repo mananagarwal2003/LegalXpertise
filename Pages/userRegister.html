@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Legal Services eMarketplace</title>
-  <link rel="stylesheet" href="/css/stylesRegister.css">
+  <link rel="stylesheet" href="../css/stylesRegister.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -15,7 +15,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="../css/userLogin.css">
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -30,47 +30,38 @@
     
 
     <div class="input-group mb-3">
-      <input type="email" class="form-control" placeholder="Email address" aria-label="Recipient's username"
+      <input type="email" class="form-control" onchange=update() id="email" placeholder="Email address" aria-label="Recipient's username"
         aria-describedby="basic-addon2">
-      <span class="input-group-text" id="basic-addon2">xyz@gmail.com</span>
+      <span class="input-group-text"  id="basic-addon2">xyz@gmail.com</span>
     </div>
     <div class="mb-3">
 
       <div class="input-group">
-        <span class="input-group-text" id="basic-addon1">First Name</span>
-        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        <span class="input-group-text" onchange=update() id="basic-addon1">User Name</span>
+        <input type="text" class="form-control" id="username" aria-describedby="basic-addon3 basic-addon4">
       </div>
-      <br>
-      <div class="input-group">
-        <span class="input-group-text" id="basic-addon2">Last Name</span>
-        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
-      </div>
-      <br>
-      
       <br>
       <div class="input-group">
         <span class="input-group-text" id="basic-addon4">State</span>
-        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        <input type="text" class="form-control" onchange=update() id="state" aria-describedby="basic-addon3 basic-addon4">
       </div>
       <br>
       <div class="input-group mb-3">
         <span class="input-group-text">Pin Code
         </span>
-        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <input type="number" id="pincode" onchange=update() class="form-control" aria-label="Amount (to the nearest dollar)">
       </div>
       <div class="input-group">
-        <span class="input-group-text">With textarea</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <span class="input-group-text">password</span>
+        <input class="form-control" onchange=update() id="password" placeholder="password should greater then 5"></input>
       </div>
       <br>
-      <div class="newAccount">
-        <Button>create new account
+        <Button class="btn btn-primary" onclick=createnewaccount()>create new account
         </Button>
-      </div>
 
     </div>
   </div>
-
+<script src="../loginauth/login.js"></script>
 </body>
 
 </html>
