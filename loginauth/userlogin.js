@@ -32,7 +32,4 @@ const login= () => {
                 alert("invalid credentcal")
             }
         })
-
-
-
 }
