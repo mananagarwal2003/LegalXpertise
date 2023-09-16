@@ -33,8 +33,15 @@ const createnewaccount = () => {
     let result=fetchRes.then(res =>
         res.json()).then(d => {
             console.log(d)
-            return d;
+            if(d.success){
+                alert("success fully created")
+                localStorage.setItem("authtoken",d.authtoken)
+            }
+            else{
+                alert("invalid credentcal")
+            }
         })
-        console.log(result)
+        
+        
 
 }
