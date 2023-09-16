@@ -26,7 +26,7 @@ const login= () => {
             console.log(d)
             if (d.success) {
                 alert("success login")
-                localStorage.setItem("authtoken", d.authtoken)
+                localStorage.seItem("authtoken", d.authtoken)
             }
             else {
                 alert("invalid credentcal")
