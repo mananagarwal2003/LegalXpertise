@@ -50,6 +50,7 @@ p {
 .container {
     display: flex;
     flex-direction: row;
+    flex-direction: column;
 }
 
 .box {
@@ -64,7 +65,8 @@ p {
     width: 100%;
     padding-right: 30px;
 }
-.page4{  
+.page4{
+    overflow: hidden;   
     position: relative;
     width: 100vw;
     display: flex;
@@ -72,50 +74,50 @@ p {
 }
 
 .faq{
-    width: 100%;
     overflow: hidden;
     font-weight: 100;
     border-radius: 2rem;
     display: flex;
-    gap: 4rem;
+    gap: 10rem;
+    background-color: #15141B;
     padding:  5vh 5vw;
     margin:7vh 5vw;
+}
+
+.faq-left{
+    color: #fff;
 }
 
 .faq>h1{
     font-family: uncut sans semibold;
     width: 40%;
     font-size: 2.7rem;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .wrapper {
     width: 100%;
-
   }
 
 .container {
-    width: 100%;
     position: relative;
     background:transparent;
+    color: black;
     border-radius: 20px;
     border: 1px solid #3B414B;
-    margin: 15px 0;
-    flex-direction: column;
+    margin: 20px 0;
   }
   
 .question {
-    text-align: left;
+    color: #fff;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     padding: 20px 80px 20px 20px;
     position: relative;
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-weight: 600;
   }
   
 .question::after {
@@ -140,31 +142,16 @@ p {
 .answer {
     color: #828284;
     font-size: 1.18rem;
-    padding: 0 20px 20px;   
+    padding: 0 20px 20px;
     line-height: 1.5rem;
-    text-align: left;
   }
-
-
-
-
-
-
-
-
-
-.navbar-expand-lg {
-    width: 100%;
-    position: fixed;
-
-}
 
 nav.navbar {
     z-index: 4;
 }
 
 .nav2 {
-    padding: 75px 20px 20px 2px;
+    padding: 20px 20px 20px 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
