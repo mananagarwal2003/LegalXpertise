@@ -32,7 +32,7 @@ p {
 }
 
 .carousel-inner {
-    height: 400px;
+    height: 600px;
 }
 
 #press {
@@ -76,15 +76,21 @@ nav.navbar {
 }
 
 .nav2 {
-    padding-top: 75px;
+    padding: 75px 20px 20px 2px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    
 }
 
 .nav2-div {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.nav2-img{
+   padding-left: 20px;
 }
 
 .options {
@@ -142,9 +148,12 @@ nav.navbar {
     position: absolute;
     width: 350px;
     background: transparent;
-    background-color: lightgray;
+    background-color: #8f8f8f;
     display: none;
     z-index: 1;
+    border-radius: 10px;
+    
+    
 }
 
 .lawyer-hover-div,
