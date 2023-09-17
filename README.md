@@ -1,1 +1,1 @@
-TinDog Starting Files
+LegalXpertise is a project based on making an incentive based platform for onboarding Legal Service Providers such as Advocates, Arbitrators, Mediators, Notaries, Document Writers, etc on eMarket Place for extending Legal Services to citizens from all socio-economic backgrounds in India.
