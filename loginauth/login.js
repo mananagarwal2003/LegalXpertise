@@ -1,7 +1,7 @@
 let username=document.body.querySelector("#username").value;
 let state=document.body.querySelector("#state").value;
 let pincode=document.body.querySelector("#pincode").value;
-let email=document.body.querySelector("#email").value;
+let email=document.body.querySelector("email").#value;
 let password=document.body.querySelector("#password").value;
 const update = () => {
     username = document.body.querySelector("#username").value;
