@@ -34,7 +34,7 @@ const createnewaccount = () => {
         res.json()).then(d => {
             console.log(d)
             if(d.success){
-                alert("success fully created")
+                alert("successfully created")
                 localStorage.setItem("authtoken",d.authtoken)
             }
             else{
