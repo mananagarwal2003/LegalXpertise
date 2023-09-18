@@ -75,10 +75,10 @@ p {
 
 .faq{
     overflow: hidden;
-    font-weight: 100;
+    /* font-weight: 100; */
     border-radius: 2rem;
     display: flex;
-    gap: 10rem;
+    gap: 4rem;
     background-color: #15141B;
     padding:  5vh 5vw;
     margin:7vh 5vw;
@@ -91,7 +91,7 @@ p {
 .faq>h1{
     font-family: uncut sans semibold;
     width: 40%;
-    font-size: 2.7rem;
+    font-size: 2rem;
 
 }
 
@@ -111,7 +111,7 @@ p {
 .question {
     color: #fff;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     padding: 20px 80px 20px 20px;
     position: relative;
@@ -146,6 +146,12 @@ p {
     line-height: 1.5rem;
   }
 
+
+
+
+
+
+  
 nav.navbar {
     z-index: 4;
 }
