@@ -38,7 +38,7 @@ const createnewaccount = () => {
                 localStorage.setItem("authtoken",d.authtoken)
             }
             else{
-                alert("invalid credentcal")
+                alert("invalid credential")
             }
         })
         
