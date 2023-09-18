@@ -53,10 +53,12 @@ html,body{
 .lead-data{
     border-radius: 20px;
     transition: all ease .1s;
-    border: 1px solid white;
     padding: 20px 40px;
     width: 65vw;
     text-align: left;
+    
+    background-color: rgba(255, 255, 255, .3);
+
 }
 
 .lead-data:hover{
