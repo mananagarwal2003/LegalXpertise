@@ -8,19 +8,19 @@ import pfp from '../assets/images/profile-user.png'
 
 const ServiceListing = () => {
 
-//   const loadData = async () => {
-//     const response = await fetch("https://legalxpertise.onrender.com/api/search/criminallawyer", {
-//         method: "get",
-//         headers: {
-//             'Content-Type': 'application/json'
-//         }
-//     });
-//     let data = await response.json();
-//     console.log(data);
-// }
-// useEffect(() => {
-//     loadData();
-// }, []);
+  const loadData = async () => {
+    const response = await fetch("https://legalxpertise.onrender.com/api/search/criminallawyer", {
+        method: "Get",
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+    let data = await response.json();
+    console.log(data);
+}
+useEffect(() => {
+    loadData();
+}, []);
 
   return (
     <>  
